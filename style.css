@@ -8,6 +8,7 @@ body {
 
 #landing {
     background: url("images/background-14.jpg") no-repeat fixed center;
+	background-size: 100%;
     color: white;
     padding: 1em 0 1em 0;
     height: 100vh;
