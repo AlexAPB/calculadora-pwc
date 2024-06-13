@@ -1,0 +1,268 @@
+body {
+    margin: 0;
+    padding: 0;
+
+    font-family: "Roboto Regular";
+    font-size: 1em;
+}
+
+#landing {
+    background: url("images/background-14.jpg") no-repeat fixed center;
+    color: white;
+    padding: 1em 0 1em 0;
+    height: 100vh;
+}
+
+#landing header {
+    margin: auto;
+    width: 80%;
+    padding-bottom: 2em;
+}
+
+#calculator-image {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#logo {
+    border-radius: 1em;
+}
+
+#container {
+    margin: auto;
+    width: 80%;
+}
+
+#presentation-explanation {
+    width: 60%;
+}
+
+#presentation-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#presentation-title {
+
+}
+
+#presentation-text {
+
+}
+
+#calculator-text {
+    font-weight: bold;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+#calculator-container {
+    background-color: white;
+    color: black;
+    padding: 1em 2em 1em 2em;
+    border-radius: 0.6em;
+}
+
+#calculator-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#calculator-inputs span {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0 0.5em 0;
+}
+
+#calculator-inputs label {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 0.85em;
+}
+
+#calculator-inputs input {
+    border: 1px rgba(0, 0, 0, 0.25) solid;
+    border-radius: 0.25em;
+    padding: 5px 10px 5px 10px;
+    margin: 5px 0;
+    
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+#error-message {
+    font-size: 12px;
+    color: red;
+}
+
+#calculation-container {
+    margin: auto;
+    width: 80%;
+    padding: 20px 0px;
+    color: black;
+}
+
+#calculation-result {
+    text-align: center;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#calculation-result ul {
+    list-style-type: none;
+    padding: 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#calculation-result ul li {
+    margin: 0.5em 0 0.5em 0;
+    /*background-color: rgba(71, 71, 97, 1);
+    color: white;*/
+    background-color: white;
+    color: black;
+    height: 6em;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 3px black;
+}
+
+.calculation-item-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.calculation-item-row-input {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 1em 0px 1em;
+}
+
+.calculation-item-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.calculation-item-column-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 1em;
+}
+
+.calculation-item-column-input img {
+    height: 1.5em;
+}
+
+.column-input {
+    height: 100%;
+}
+
+.column-result {
+    height: 100%;
+    justify-content: center;
+}
+
+.calculation-number {
+    font-family: "Roboto Black";
+    font-size: 1.2em;
+    user-select: none;
+}
+
+.calculation-text-input {
+    font-size: 1em;
+    text-align: start;
+    margin: auto 0;
+}
+
+.calculation-text {
+    font-size: 1em;
+}
+
+.calculation-symbols {
+    font-family: "Roboto Thin";
+    font-size: 1.5em;
+    padding: 0 0.5em 0 0.5em;
+    margin: auto;
+    user-select: none;
+}
+
+#calculation-button {
+    text-align: center;
+}
+
+#calculation-button button {
+    background-color: #0DE896;
+    color: #FCFEFF;
+    font-family: "Roboto Bold";
+    font-size: 1.25em;
+    border: 0px black solid;
+    height: 2.5em;
+    border-radius: 5px;
+}
+
+#calculation-button button:hover {
+    background-color: #0DE896;
+    color: #FCFEFF;
+    border: 0px black solid;
+    height: 2.5em;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #0DE896;
+    transition: 200ms;
+}
+
+#calculation-button button:active {
+    background-color: #0CCC82;
+    color: #FCFEFF;
+    border: 0px black solid;
+    height: 2.5em;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #0CCC82;
+}
+
+.color-coworkers {
+    color: #5E88FC;
+}
+
+.color-scattered {
+    color: #FFC857;
+}
+
+.color-waste-hours {
+    color: #FF6B6B;
+}
+
+.color-hours-by-year {
+    color: #A05195;
+    
+}
+
+.color-salary {
+    color: #2EC4B6;
+}
+
+.color-distracted {
+    color: #FF5733;
+}
+
+.color-wasted-hours {
+    color: #66BB6A;
+}
+
+.color-lost-hours {
+    color: #EF5350;
+}
+
+.color-lost-by-year {
+    color: #F4475A;
+}
